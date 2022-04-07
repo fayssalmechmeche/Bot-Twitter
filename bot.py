@@ -19,7 +19,7 @@ access_token =
 access_token_secret = 
 
 
-client = tweepy.Client(bearer_token='AAAAAAAAAAAAAAAAAAAAAP5gbAEAAAAAl%2FVec0ozYRE9xcA9%2BjM6gQIc0Bc%3DdAHfhbDjXjEvIF2X7jZPNKYpmp4VUskCRs7Q4GqHQnl17HwcTk',
+client = tweepy.Client(bearer_token=,
                        consumer_key=consumer_key,
                        consumer_secret=consumer_secret,
                        access_token=access_token,
