@@ -30,10 +30,10 @@ client = tweepy.Client(bearer_token=,
 def bot():
   try :
     # Connectez- vous à la base de données.
-    db = mysql.connector.connect(host='mysql-mechmeche.alwaysdata.net',
-                             user='mechmeche',
-                             password='93220fat',                             
-                             database='mechmeche_bot')
+    db = mysql.connector.connect(host=,
+                             user=,
+                             password=,                             
+                             database=)
     print ("connect successful!!") 
   except :
     print("raté")
